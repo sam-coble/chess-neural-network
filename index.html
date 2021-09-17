@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang = "">
+	<head>
+		<meta charset = "utf-8">
+		<meta name = "viewport" contnent="width=device-width,initial-scale=1.0">
+		<title>
+			Chess
+		</title>
+		<!--CHANGE TO CSS ELEMENTS-->
+		<style>
+			body{
+
+			}
+			.timer{
+				width : 100px;
+				height: 50px;
+				font-size: 25px;
+				padding: 5;
+				border:none;
+			}
+			.board{
+				width: 800;
+				height: 800;
+				padding: 5;
+				background:red;
+			}
+			table{
+				
+				border: 1px solid black;
+				margin: 20px;
+				table-layout: fixed;
+				width: 100%;
+			}
+			span.board{
+				display: inline;
+				float: left;
+			}
+			span.log-table{
+				float: left;
+				display: flex;
+				flex-direction: column;
+				column-count: 2;
+				height: 200px;
+				background: red;
+				flex-wrap: wrap;
+
+			}
+			
+
+
+		</style>
+
+
+		<script src = "./chess.js">
+		</script>
+		<script src = "./ajax.min.js">
+		</script>
+		<script src = "./p5.min.js">
+		</script>
+		<script src = "./p5.sound.min.js">
+		</script>
+		<script src = "./Vector.js">
+		</script>
+		<script src = "./lodash.min.js">
+		</script>
+		<script src = "./sketchv2.js">
+		</script>
+	</head>
+	<body>
+		
+		<div class = "bg"></div>
+		<div class = "main">
+			<form name = "form">
+				<input class = "timer" name = "whiteTimer" readonly>
+				<input class = "timer" name = "blackTimer" readonly>
+			</form>
+		</div>
+		<div class = "_main">
+			<span id = "sketch-holder" class = "board">
+			</span>
+			<span class = "log-table">
+				<table id = "log">
+				</table>
+			</span>
+		</div>
+
+	</body>
+</html>

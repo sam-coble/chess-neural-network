@@ -1,0 +1,352 @@
+Hollys-MacBook-Pro-3982:chess missholly$ node ./webchess.js
+2020-08-14 16:51:03.539452: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-08-14 16:51:03.561190: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x102f11340 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-08-14 16:51:03.561221: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+move tables loaded...
+
+Loading Games(3): 10%...
+Loading Games(3): 25%...
+Loading Games(3): 50%...
+Loading Games(3): 75%...
+Loading Games(3): 100%...
+Length of data: 58727
+Length of data[0]: 769
+Length of labels: 58727
+Length of labels[0]: 1882
+
+The script uses approximately 575.74 MB
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense1 (Dense)         [null,1500]               1155000   
+_________________________________________________________________
+dense_Dense2 (Dense)         [null,2500]               3752500   
+_________________________________________________________________
+dense_Dense3 (Dense)         [null,1882]               4706882   
+=================================================================
+Total params: 9614382
+Trainable params: 9614382
+Non-trainable params: 0
+_________________________________________________________________
+Model Summary:  undefined
+
+
+
+Starting Training...
+
+
+Model Compiled...
+The script uses approximately 4045.45 MB
+model saved
+Epoch 1 / 20
+...
+...
+...
+...
+...
+314570ms 5356us/step - acc=0.200 loss=3.66e-3 
+The script uses approximately 593 MB
+Final accuracy [
+  0.012549594044685364, 0.025558942928910255,
+   0.03345990926027298,  0.05147547274827957,
+   0.05886559933423996,  0.07063190639019012,
+   0.08449265360832214,  0.09389208257198334,
+   0.10289986431598663,  0.11120949685573578,
+   0.12251605093479156,  0.13048513233661652,
+   0.14020808041095734,  0.14868800342082977,
+   0.15621435642242432,  0.16484752297401428,
+   0.17337852716445923,  0.18386773765087128,
+   0.19193898141384125,   0.2004699856042862
+]
+model saved
+Hollys-MacBook-Pro-3982:chess missholly$ node ./webchess.js
+/Users/missholly/Desktop/jsstuff/Chess/webchess.js:784
+        const d = tf.tensor2d([dl.data);
+                                      ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+Hollys-MacBook-Pro-3982:chess missholly$ node ./webchess.js
+2020-08-14 18:49:15.474940: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-08-14 18:49:15.497151: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x1086fa220 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-08-14 18:49:15.497183: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+move tables loaded...
+
+Loading Games(5): 10%...
+Loading Games(5): 25%...
+Loading Games(5): 50%...
+Loading Games(5): 75%...
+Loading Games(5): 100%...
+Length of data: 47710
+Length of data[0]: 769
+Length of labels: 47710
+Length of labels[0]: 1882
+
+The script uses approximately 470.07 MB
+(node:6583) UnhandledPromiseRejectionWarning: RangeError: Invalid string length
+    at Array.join (<anonymous>)
+    at Array.toString (<anonymous>)
+    at loadAndPredict (/Users/missholly/Desktop/jsstuff/Chess/webchess.js:794:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:6583) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:6583) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Hollys-MacBook-Pro-3982:chess missholly$ node ./webchess.js
+2020-08-14 18:52:54.578434: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-08-14 18:52:54.601569: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x103c2a090 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-08-14 18:52:54.601600: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+move tables loaded...
+
+Loading Games(5): 10%...
+Loading Games(5): 25%...
+Loading Games(5): 50%...
+Loading Games(5): 75%...
+Loading Games(5): 100%...
+Length of data: 47710
+Length of data[0]: 769
+Length of labels: 47710
+Length of labels[0]: 1882
+
+The script uses approximately 469.03 MB
+accuracy:  0.11551037518339971
+Hollys-MacBook-Pro-3982:chess missholly$ node ./webchess.js
+2020-08-14 18:56:22.195671: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-08-14 18:56:22.214707: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x1041063a0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-08-14 18:56:22.214736: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+move tables loaded...
+
+Loading Games(6): 10%...
+Loading Games(6): 25%...
+Loading Games(6): 50%...
+Loading Games(6): 75%...
+Loading Games(6): 100%...
+Length of data: 26082
+Length of data[0]: 769
+Length of labels: 26082
+Length of labels[0]: 1882
+
+The script uses approximately 268.49 MB
+accuracy:  0.11521355724254274
+Hollys-MacBook-Pro-3982:chess missholly$ mkdir models/model5/one/one                                                                                                      
+Hollys-MacBook-Pro-3982:chess missholly$ node ./webchess.js                                                                                                       
+2020-08-14 19:31:06.039718: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-08-14 19:31:06.059941: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x103c05af0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-08-14 19:31:06.059973: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+move tables loaded...
+
+Loading Games(6): 10%...
+Loading Games(6): 25%...
+Loading Games(6): 50%...
+Loading Games(6): 75%...
+Loading Games(6): 100%...
+Length of data: 26082
+Length of data[0]: 769
+Length of labels: 26082
+Length of labels[0]: 1882
+
+The script uses approximately 261.72 MB
+Data Shuffled...
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense1 (Dense)         [null,1500]               1155000   
+_________________________________________________________________
+dense_Dense2 (Dense)         [null,2500]               3752500   
+_________________________________________________________________
+dense_Dense3 (Dense)         [null,1882]               4706882   
+=================================================================
+Total params: 9614382
+Trainable params: 9614382
+Non-trainable params: 0
+_________________________________________________________________
+Model Summary:  undefined
+
+
+
+Starting Training...
+
+
+Model Compiled...
+The script uses approximately 1801.29 MB
+(node:6806) UnhandledPromiseRejectionWarning: Error: Leaves of the structure passed to zip() must be Datasets, not primitives.
+    at /Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-data/dist/tf-data.node.js:3498:35
+    at deepMapInternal (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-data/dist/tf-data.node.js:1093:18)
+    at deepMapInternal (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-data/dist/tf-data.node.js:1107:31)
+    at /Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-data/dist/tf-data.node.js:1226:21
+    at step (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-data/dist/tf-data.node.js:83:23)
+    at Object.next (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-data/dist/tf-data.node.js:64:53)
+    at /Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-data/dist/tf-data.node.js:57:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-data/dist/tf-data.node.js:53:12)
+    at deepMapAndAwaitAll (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-data/dist/tf-data.node.js:1219:12)
+(node:6806) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:6806) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Hollys-MacBook-Pro-3982:chess missholly$ node ./webchess.js
+2020-08-14 19:46:22.656795: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-08-14 19:46:22.675597: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x109342350 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-08-14 19:46:22.675641: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+move tables loaded...
+
+Loading Games(3): 10%...
+Loading Games(3): 25%...
+Loading Games(3): 50%...
+Loading Games(3): 75%...
+Loading Games(3): 100%...
+Length of data: 58727
+Length of data[0]: 769
+Length of labels: 58727
+Length of labels[0]: 1882
+
+The script uses approximately 573.83 MB
+Data Shuffled...
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense1 (Dense)         [null,1500]               1155000   
+_________________________________________________________________
+dense_Dense2 (Dense)         [null,2500]               3752500   
+_________________________________________________________________
+dense_Dense3 (Dense)         [null,1882]               4706882   
+=================================================================
+Total params: 9614382
+Trainable params: 9614382
+Non-trainable params: 0
+_________________________________________________________________
+Model Summary:  undefined
+
+
+
+Starting Training...
+
+
+Model Compiled...
+Epoch 1 / 10
+...
+...
+...
+...
+...
+349555ms 380779us/step - acc=0.202 loss=1.95e-3 
+The script uses approximately 605.54 MB
+Epoch 2 / 10
+(node:6851) UnhandledPromiseRejectionWarning: Error: Input 0 is incompatible with layer dense_Dense1: expected axis -1 of input shape to have value 769 but got shape 64,1.
+    at new ValueError (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-layers/dist/tf-layers.node.js:176:28)
+    at Dense.Layer.assertInputCompatibility (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-layers/dist/tf-layers.node.js:3186:31)
+    at /Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-layers/dist/tf-layers.node.js:3365:19
+    at nameScope (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-layers/dist/tf-layers.node.js:931:19)
+    at Dense.Layer.apply (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-layers/dist/tf-layers.node.js:3334:16)
+    at execute (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-layers/dist/tf-layers.node.js:6031:45)
+    at totalLossFunction (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-layers/dist/tf-layers.node.js:9577:31)
+    at /Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:2551:22
+    at Engine.scopedRun (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:2561:23)
+    at Engine.tidy (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:2550:21)
+(node:6851) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:6851) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Hollys-MacBook-Pro-3982:chess missholly$ 
+Hollys-MacBook-Pro-3982:chess missholly$ 
+Hollys-MacBook-Pro-3982:chess missholly$ 
+Hollys-MacBook-Pro-3982:chess missholly$ node ./webchess.js
+2020-08-14 20:03:26.097384: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-08-14 20:03:26.116950: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x102f4ce60 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-08-14 20:03:26.116981: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+move tables loaded...
+
+Loading Games(3): 10%...
+Loading Games(3): 25%...
+Loading Games(3): 50%...
+Loading Games(3): 75%...
+Loading Games(3): 100%...
+Length of data: 58727
+Length of data[0]: 769
+Length of labels: 58727
+Length of labels[0]: 1882
+
+The script uses approximately 568.98 MB
+Data Shuffled...
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense1 (Dense)         [null,1500]               1155000   
+_________________________________________________________________
+dense_Dense2 (Dense)         [null,2500]               3752500   
+_________________________________________________________________
+dense_Dense3 (Dense)         [null,1882]               4706882   
+=================================================================
+Total params: 9614382
+Trainable params: 9614382
+Non-trainable params: 0
+_________________________________________________________________
+Model Summary:  undefined
+
+
+
+Starting Training...
+
+
+Model Compiled...
+The script uses approximately 570.53 MB
+Epoch 1 / 10
+(node:6922) UnhandledPromiseRejectionWarning: TypeError: Error thrown while iterating through a dataset: Cannot read property 'length' of undefined
+    at genlabels (/Users/missholly/Desktop/jsstuff/Chess/webchess.js:800:34)
+    at genlabels.next (<anonymous>)
+    at FunctionCallIterator.nextFn (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-data/dist/tf-data.node.js:5294:89)
+    at FunctionCallIterator.<anonymous> (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-data/dist/tf-data.node.js:2038:48)
+    at step (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-data/dist/tf-data.node.js:83:23)
+    at Object.next (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-data/dist/tf-data.node.js:64:53)
+    at /Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-data/dist/tf-data.node.js:57:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-data/dist/tf-data.node.js:53:12)
+    at FunctionCallIterator.next (/Users/missholly/Desktop/jsstuff/Chess/node_modules/@tensorflow/tfjs-data/dist/tf-data.node.js:2035:16)
+(node:6922) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+(node:6922) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Hollys-MacBook-Pro-3982:chess missholly$ node ./webchess.js                                                                                                               
+2020-08-14 20:07:58.523767: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-08-14 20:07:58.542441: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x103825c30 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-08-14 20:07:58.542468: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+move tables loaded...
+
+Loading Games(3): 10%...
+Loading Games(3): 25%...
+Loading Games(3): 50%...
+Loading Games(3): 75%...
+Loading Games(3): 100%...
+Length of data: 58727
+Length of data[0]: 769
+Length of labels: 58727
+Length of labels[0]: 1882
+
+The script uses approximately 578.19 MB
+Data Shuffled...
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense1 (Dense)         [null,1500]               1155000   
+_________________________________________________________________
+dense_Dense2 (Dense)         [null,2500]               3752500   
+_________________________________________________________________
+dense_Dense3 (Dense)         [null,1882]               4706882   
+=================================================================
+Total params: 9614382
+Trainable params: 9614382
+Non-trainable params: 0
+_________________________________________________________________
+Model Summary:  undefined
+
+
+
+Starting Training...
+
+
+Model Compiled...
+The script uses approximately 579.74 MB
+Epoch 1 / 10
+...
+...
+...
+...
+...
